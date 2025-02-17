@@ -2,7 +2,6 @@
 title: "Bayard Vinant-Tang Website"
 about:
   template: jolla
-  image: profile.jpg
   links:
     - icon: linkedin
       text: LinkedIn
