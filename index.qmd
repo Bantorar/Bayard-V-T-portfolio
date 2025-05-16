@@ -10,11 +10,8 @@ about:
       href: https://github.com
 ---
 
-  Bayard Douglas Vinant-Tang is a Statistic Major Senior at CSUMB. Where he is dealing with all of his different classes. His Hobbies are Stuffed Animals, Video games, and More.
-  
-  ## Education
-  
-  Denali Elementary School
-  Davinci Elementary school
-  Lincoln Middle School
-  Santa Monica High School
+Bayard Douglas Vinant-Tang is a Statistic Major Senior at CSUMB. Where he is dealing with all of his different classes. His Hobbies are Stuffed Animals, Video games, and More.
+
+\## Education
+
+Denali Elementary School Davinci Elementary school Lincoln Middle School Santa Monica High School

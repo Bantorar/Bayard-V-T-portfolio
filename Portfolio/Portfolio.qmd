@@ -14,6 +14,7 @@ execute:
 library(tidyverse)
 library(readxl)
 library(esquisse)
+library(here)
 options(scipen = 999)  # to prevent scientific notation in output
 ```
 
@@ -28,9 +29,9 @@ To clean the data, I transformed the datasets from a wide format into a long for
 ```{r}
 #| label: data-cleaning
 #| include: false
-
+  
 # Pivot and clean military data
-expensives <- read.csv("Data-raw/Military Expenditure.csv")
+expensives <- read.csv(here::here("Data-raw", "Military Expenditure.csv"))
 Military_data <- expensives %>%
   pivot_longer(
     cols = starts_with("X"),
@@ -40,7 +41,7 @@ Military_data <- expensives %>%
   )
 
 # Pivot and clean GDP per capita
-gdp_per_capita <- read.csv("Data-raw/GDP_per_capita.csv")
+gdp_per_capita <- read.csv(here::here("Data-raw", "GDP_per_capita.csv"))
 Military_data_GDP_per_capita <- gdp_per_capita %>%
   pivot_longer(
     cols = starts_with("X"),
@@ -51,7 +52,7 @@ Military_data_GDP_per_capita <- gdp_per_capita %>%
   rename(Name = Country.Name, Code = Country.Code, GDP_per_capita_Indicator.Name = Indicator.Name)
 
 # Pivot and clean GDP
-gdp <- read.csv("Data-raw/GDP.csv")
+gdp <- read.csv(here::here("Data-raw", "GDP.csv"))
 Military_data_GDP <- gdp %>%
   pivot_longer(
     cols = starts_with("X"),
