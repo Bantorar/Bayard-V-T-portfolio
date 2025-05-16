@@ -1,0 +1,11 @@
+Name,Country.Code,Type,year,Mil_budget_Indicator.Name,Military_expensives,GDP_Indicator.Name,GDP,GDP_per_capita_Indicator.Name,GDP_per_capita
+High income,HIC,Regions Clubbed Economically,1989,Military expenditure (current USD),557000000000,GDP (current US$),17480886838661.9,GDP per capita (current US$),14918.9671184782
+High income,HIC,Regions Clubbed Economically,2018,Military expenditure (current USD),1200000000000,GDP (current US$),56793957781697.4,GDP per capita (current US$),41180.3426854104
+Low income,LIC,Regions Clubbed Economically,1989,Military expenditure (current USD),3097814545,GDP (current US$),107444620042.284,GDP per capita (current US$),376.469758507045
+Low income,LIC,Regions Clubbed Economically,2018,Military expenditure (current USD),4816432270,GDP (current US$),420211435774.79,GDP per capita (current US$),654.345171301588
+Lower middle income,LMC,Regions Clubbed Economically,1989,Military expenditure (current USD),25592878941,GDP (current US$),679846124636.019,GDP per capita (current US$),407.487226364545
+Lower middle income,LMC,Regions Clubbed Economically,2018,Military expenditure (current USD),124000000000,GDP (current US$),5994118980886.44,GDP per capita (current US$),2076.456710545
+Low & middle income,LMY,Regions Clubbed Economically,1989,Military expenditure (current USD),87878655684,GDP (current US$),2854773671384.59,GDP per capita (current US$),710.746774549915
+Low & middle income,LMY,Regions Clubbed Economically,2018,Military expenditure (current USD),578000000000,GDP (current US$),29791620278516.9,GDP per capita (current US$),4738.20340339937
+Upper middle income,UMC,Regions Clubbed Economically,1989,Military expenditure (current USD),59187962197,GDP (current US$),2071001497026.29,GDP per capita (current US$),1003.97755113359
+Upper middle income,UMC,Regions Clubbed Economically,2018,Military expenditure (current USD),449000000000,GDP (current US$),23375867162686.5,GDP per capita (current US$),8473.68198859219

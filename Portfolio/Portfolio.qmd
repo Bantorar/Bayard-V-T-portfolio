@@ -90,6 +90,7 @@ combined_data_region_economically_income <- combined_data_region_economically %>
 ```
 
 ```{r}
+#| label: Combining data together
 combined_data <- left_join(Military_data, Military_data_GDP, by = c("Name", "year")) %>%
   select(-Code.y,-Indicator.Code) %>%
   relocate("year", .after = "Type") %>%
@@ -120,6 +121,12 @@ combined_data_region_economically_income <- combined_data_region_economically %>
 combined_data_region_geographically <- combined_data_per_capita %>%
   filter(Type == "Regions Clubbed Geographically") %>%
   filter(Name != "World")
+
+write_csv(combined_data_country, here::here("data-clean", "final-clean-data_country.csv"))
+
+write_csv(combined_data_region_economically_income, here::here("data-clean", "final-clean-data_Economy.csv"))
+
+write_csv(combined_data_region_geographically, here::here("data-clean", "final-clean-data_Geography.csv"))
 ```
 
 # Visualization 1
