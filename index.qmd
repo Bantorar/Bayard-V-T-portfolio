@@ -12,7 +12,7 @@ about:
 
   Bayard Douglas Vinant-Tang is a Statistic Major Senior at CSUMB. Where he is dealing with all of his different classes. His Hobbies are Stuffed Animals, Video games, and More.
   
-  # Education
+  ## Education
   
   Denali Elementary School
   Davinci Elementary school
