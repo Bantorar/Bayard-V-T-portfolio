@@ -1,7 +1,7 @@
 ---
 title: "Bayard Vinant-Tang Website"
 subtitle: "Student of CSUMB"
-image: Judith_Canner.jpg
+image: Bayard_Vinant-Tang.jpg
 about:
   template: jolla
   links:
@@ -10,7 +10,7 @@ about:
       href: https://github.com
 ---
 
-  Bayard Douglas Vinant-Tang is a Statistic Major Senior at CSUMB. Where he is dealing with all of his different classes.
+  Bayard Douglas Vinant-Tang is a Statistic Major Senior at CSUMB. Where he is dealing with all of his different classes. His Hobbies are Stuffed Animals, Video games, and More.
   
   # Education
   
